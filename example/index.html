@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Static-pagination 예제</title>
+    <link href="../bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<ul id="static-pagination-list"></ul>
+
+<nav aria-label="Page navigation">
+    <ul id="static-pagination" class="pagination justify-content-end">
+    </ul>
+</nav>
+
+<script src="../jquery/dist/jquery.slim.js"></script>
+<script src="../popper.js/dist/umd/popper.min.js"></script>
+<script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="static-pagination.js"></script>
+<script>
+
+    let sample_array = [
+        {
+            'url': 'https://github.com/inci-o/static-pagination',
+            'title': 'sample title1',
+            'content': 'sample content',
+            'date': '2019-01-23'
+        },
+        {
+            'url': 'https://github.com/inci-o/static-pagination',
+            'title': 'sample title2',
+            'content': 'sample content',
+            'date': '2019-01-23'
+        },
+        {
+            'url': 'https://github.com/inci-o/static-pagination',
+            'title': 'sample title3',
+            'content': 'sample content',
+            'date': '2019-01-23'
+        },
+        {
+            'url': 'https://github.com/inci-o/static-pagination',
+            'title': 'sample title4',
+            'content': 'sample content',
+            'date': '2019-01-23'
+        },
+        {
+            'url': 'https://github.com/inci-o/static-pagination',
+            'title': 'sample title5',
+            'content': 'sample content',
+            'date': '2019-01-23'
+        },
+        {
+            'url': 'https://github.com/inci-o/static-pagination',
+            'title': 'sample title6',
+            'content': 'sample content',
+            'date': '2019-01-23'
+        },
+        {
+            'url': 'https://github.com/inci-o/static-pagination',
+            'title': 'sample title7',
+            'content': 'sample content',
+            'date': '2019-01-23'
+        },
+        {
+            'url': 'https://github.com/inci-o/static-pagination',
+            'title': 'sample title8',
+            'content': 'sample content',
+            'date': '2019-01-23'
+        },
+        {
+            'url': 'https://github.com/inci-o/static-pagination',
+            'title': 'sample title9',
+            'content': 'sample content',
+            'date': '2019-01-23'
+        },
+        {
+            'url': 'https://github.com/inci-o/static-pagination',
+            'title': 'sample title10',
+            'content': 'sample content',
+            'date': '2019-01-23'
+        },
+        {
+            'url': 'https://github.com/inci-o/static-pagination',
+            'title': 'sample title11',
+            'content': 'sample content',
+            'date': '2019-01-23'
+        },
+        {
+            'url': 'https://github.com/inci-o/static-pagination',
+            'title': 'sample title12',
+            'content': 'sample content',
+            'date': '2019-01-23'
+        },
+        {
+            'url': 'https://github.com/inci-o/static-pagination',
+            'title': 'sample title13',
+            'content': 'sample content',
+            'date': '2019-01-23'
+        },
+    ];
+
+pagination(5, 1, sample_array); // pagination(perPage, 1, array);
+
+</script>
+
+
+</body>
+</html>
