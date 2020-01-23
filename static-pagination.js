@@ -2,7 +2,7 @@
     title: static-pagination.js
     description: Pagination for static pages based on bootstrap and jquery (eg. jekyll)
     author: Incio
-    github: https://github.com/inci-o
+    github: https://github.com/inci-o/static-pagination
     site: https://inci-o/github.io
     version: 0.1.0
  */
