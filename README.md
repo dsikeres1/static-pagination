@@ -39,7 +39,9 @@ Pagination for static pages based on bootstrap and jquery (eg. Jekyll, Github Pa
 ```html
 <script src="static-pagination.js"></script>
 <script>
-    staticPagination(perPage, 1, array);
+        staticPagination(data, {
+            perPage: 5
+        });
 </script>
 
 ```
