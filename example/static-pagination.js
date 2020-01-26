@@ -61,13 +61,13 @@ function _staticPagination(page) {
         if (_currentPage === 1) {
             $pagination.append('<li class="page-item disabled">' +
                 '<a class="page-link" href="#" onclick="_staticPagination(' + 0 + ');">' +
-                '<i class="material-icons" style="font-size: 14px;"><</i>' +
+                '<' +
                 '</a>' +
                 '</li>');
         } else {
             $pagination.append('<li class="page-item">' +
                 '<a class="page-link" href="#" onclick="_staticPagination(' + 0 + ');">' +
-                '<i class="material-icons" style="font-size: 14px;"><</i>' +
+                '<' +
                 '</a>' +
                 '</li>');
         }
@@ -87,13 +87,13 @@ function _staticPagination(page) {
         if (_currentPage === _paginationLength) {
             $pagination.append('<li class="page-item disabled">' +
                 '<a class="page-link" href="#" onclick="_staticPagination(' + (_paginationLength + 1) + ');">' +
-                '<i class="material-icons" style="font-size: 14px;">></i>' +
+                '>' +
                 '</a>' +
                 '</li>');
         } else {
             $pagination.append('<li class="page-item">' +
                 '<a class="page-link" href="#" onclick="_staticPagination(' + (_paginationLength + 1) + ');">' +
-                '<i class="material-icons" style="font-size: 14px;">></i>' +
+                '>' +
                 '</a>' +
                 '</li>');
         }
